@@ -1,0 +1,81 @@
+@import "https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat";
+
+.section-parent-container {
+    height: 1250px;
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+
+    font-family: "Montserrat";
+}
+
+.section-title {
+    line-height: 10px;
+    margin: 80px 0;
+}
+
+.section-title h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.section-title p {
+    font-style: italic;
+}
+
+.services-commerce {
+    min-height: 300px;
+}
+
+.services-3-pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services-logo {
+    height: 125px;
+    width: 125px;
+
+    border-radius: 50%;
+
+    background: #F1C735;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+}
+
+.fas {
+    font-size: 80px;
+    color: white;
+}
+
+@media(min-width:768px) {
+    .services-3-pictures {
+        flex-direction: row;
+    }
+    .services-parent-container {
+        height: 700px;
+    }
+    .services-title {
+        margin-top: 0;
+    }
+    .services-commerce {
+        margin: 0 20px;
+    }
+}
+
+@media(min-width:992px) {
+    .services-3-pictures {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+}
